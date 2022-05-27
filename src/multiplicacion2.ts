@@ -10,7 +10,7 @@ let indice: number;
 
 
 //Metodo
-let multiplicarArreglo = (v1: number[], v2: number[], v3: number[], v4: number[], cantidad: number): number => {
+let multiplicarArreglo = (v1: number[], v2: number[], v3: number[], v4: number[], cantidad: number): number [] => {
 
   for(indice = 0; indice < cantidad; indice++){
     total[indice] = v1[indice] * v2[indice] * v3[indice] * v4[indice];
